@@ -22,7 +22,7 @@
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**Veridex — Agentic RAG with Retrieval Eval**](https://github.com/chinmay250/Veridex-Agentic-Rag-With-Retrieval-Eval) | Production RAG over domain documents with chunking, vector search, reranking, and grounded citations. Includes retrieval-quality evaluation layer (context precision/recall, faithfulness) to measurably tune the pipeline. | LlamaIndex · pgvector · Chroma · FastAPI · Docker |
+| [**Veridex — Agentic RAG with Retrieval Eval**](https://github.com/chinmay250/Veridex-Agentic-Rag-With-Retrieval-Eval) | Agentic RAG with a LangGraph retrieve → grade → rewrite → generate → faithfulness-check loop. Hybrid search (dense + SPLADE, RRF) with cross-encoder reranking, inline citations, semantic cache, and RAGAS-evaluated configs — every pipeline change justified by before/after metrics. | LangGraph · Qdrant · fastembed · RAGAS · FastAPI · Langfuse · Docker |
 | [**LLM Evaluation & Regression-Testing Harness**](https://github.com/chinmay250/llm-eval-harness) | Scores LLM outputs for correctness, faithfulness, and hallucination; gates CI on prompt/model regressions with side-by-side comparison dashboard. | Python · RAGAS · DeepEval · FastAPI · GitHub Actions |
 | [**End-to-End ML Pipeline with Drift Monitoring**](https://github.com/chinmay250/ml-pipeline-drift-monitoring) | Containerized model serving with reproducible training, MLflow experiment tracking, PSI/KS drift detection, automated alerts, and retraining triggers. | scikit-learn · MLflow · FastAPI · Docker |
 | [**Amazon Movie Recommendation System**](https://github.com/chinmay250/Amazon-Movie-Recommendation) | Hybrid recommender (collaborative + content + sentiment) over **8M+ interactions** processed with PySpark. | PySpark · NLP · Recommender Systems |
@@ -53,12 +53,14 @@
 
 **Generative AI / LLM**
 
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-7C3AED?style=flat-square)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square)
 ![RAGAS](https://img.shields.io/badge/RAGAS-FF4B4B?style=flat-square)
 ![DeepEval](https://img.shields.io/badge/DeepEval-2563EB?style=flat-square)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
 ![Chroma](https://img.shields.io/badge/Chroma-FC521F?style=flat-square)
 ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Langfuse](https://img.shields.io/badge/Langfuse-000000?style=flat-square)
 
 **MLOps & Deployment**
 
@@ -78,12 +80,14 @@
 
 ## 📜 Certifications
 
-- 🏅 **Professional Machine Learning Engineer** — Google Cloud
-- 🏅 **Azure Data Scientist Associate** — Microsoft
-- 🏅 **AWS Certified AI Practitioner** — AWS
-- 🏅 **AWS Certified Cloud Practitioner** — AWS
-- 🏅 **Google Generative AI Leader** — Google
-- 🏅 **TensorFlow Developer Specialization** — DeepLearning.AI
+<p>
+  <img src="https://img.shields.io/badge/Google%20Cloud-Professional%20Machine%20Learning%20Engineer-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="GCP Professional ML Engineer"/>
+  <img src="https://img.shields.io/badge/Microsoft-Azure%20Data%20Scientist%20Associate-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Azure Data Scientist Associate"/>
+  <img src="https://img.shields.io/badge/AWS-Certified%20AI%20Practitioner-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS AI Practitioner"/>
+  <img src="https://img.shields.io/badge/AWS-Certified%20Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Cloud Practitioner"/>
+  <img src="https://img.shields.io/badge/Google-Generative%20AI%20Leader-EA4335?style=for-the-badge&logo=google&logoColor=white" alt="Google Generative AI Leader"/>
+  <img src="https://img.shields.io/badge/DeepLearning.AI-TensorFlow%20Developer-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow Developer"/>
+</p>
 
 ## 📊 GitHub Stats
 
