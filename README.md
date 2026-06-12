@@ -80,14 +80,32 @@
 
 ## 📜 Certifications
 
-<p>
-  <img src="https://img.shields.io/badge/Google%20Cloud-Professional%20Machine%20Learning%20Engineer-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="GCP Professional ML Engineer"/>
-  <img src="https://img.shields.io/badge/Microsoft-Azure%20Data%20Scientist%20Associate-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Azure Data Scientist Associate"/>
-  <img src="https://img.shields.io/badge/AWS-Certified%20AI%20Practitioner-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS AI Practitioner"/>
-  <img src="https://img.shields.io/badge/AWS-Certified%20Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Cloud Practitioner"/>
-  <img src="https://img.shields.io/badge/Google-Generative%20AI%20Leader-EA4335?style=for-the-badge&logo=google&logoColor=white" alt="Google Generative AI Leader"/>
-  <img src="https://img.shields.io/badge/DeepLearning.AI-TensorFlow%20Developer-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow Developer"/>
-</p>
+<table>
+  <tr>
+    <td align="center" width="20%">
+      <img src="https://images.credly.com/size/340x340/images/00096281-8052-4cf1-b412-37702a94b539/image.png" width="110" alt="Google Cloud Professional Machine Learning Engineer"/><br>
+      <sub><b>Professional Machine Learning Engineer</b><br>Google Cloud</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg" width="110" alt="Microsoft Certified: Azure Data Scientist Associate"/><br>
+      <sub><b>Azure Data Scientist Associate</b><br>Microsoft</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://images.credly.com/size/340x340/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png" width="110" alt="AWS Certified AI Practitioner"/><br>
+      <sub><b>AWS Certified AI Practitioner</b><br>AWS</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="110" alt="AWS Certified Cloud Practitioner"/><br>
+      <sub><b>AWS Certified Cloud Practitioner</b><br>AWS</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://images.credly.com/size/340x340/images/ec23e41a-0f32-4a98-9c00-28925621b281/blob" width="110" alt="Google Cloud Generative AI Leader"/><br>
+      <sub><b>Generative AI Leader</b><br>Google Cloud</sub>
+    </td>
+  </tr>
+</table>
+
+- 🏅 **TensorFlow Developer Specialization** — DeepLearning.AI
 
 ## 📊 GitHub Stats
 
